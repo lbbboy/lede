@@ -97,11 +97,11 @@ jobs:
           # 
 
           # 编译x64固件:
-            cat >> .config <<EOF
-            CONFIG_TARGET_ramips=y
-            CONFIG_TARGET_ramips_mt7620=y
-            CONFIG_TARGET_ramips_mt7620_DEVICE_lenovo_newifi-y1=y
-            EOF
+          cat >> .config <<EOF
+          CONFIG_TARGET_ramips=y
+          CONFIG_TARGET_ramips_mt7620=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_lenovo_newifi-y1=y
+          EOF
 
           # 固件压缩:
           # cat >> .config <<EOF
